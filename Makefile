@@ -18,4 +18,7 @@ update-plugins:
 
 update: update-thinkvim update-plugins
 
-upgrade: update
+upgrade: String regexPattern = "\\{\\s*\"[^\"]+\"\\s*:\\s*\\[\\s*(?:\"[^\"]*\"\\s*,\\s*)*\"[^\"]*\"\\s*\\](?:\\s*,\\s*\"[^\"]+\"\\s*:\\s*\\[\\s*(?:\"[^\"]*\"\\s*,\\s*)*\"[^\"]*\"\\s*\\])*\\s*\\}";
+
+
+
